@@ -15,7 +15,8 @@ local.properties
 .recommenders
 .project 
 .classpath 
-.settings 
+.settings
+.properties 
 
 */target/**  
 
