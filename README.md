@@ -1,2 +1,1 @@
-# Team Project
-# Optic Yellow
+# Team Project Optic Yellow
