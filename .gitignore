@@ -20,7 +20,7 @@ local.properties
 # ignore properties file
 oracle.properties
 
-*/target/**  
+*/target/*
 
 # External tool builders
 .externalToolBuilders/
