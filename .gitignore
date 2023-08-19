@@ -16,7 +16,9 @@ local.properties
 .project 
 .classpath 
 .settings
-.properties 
+
+# ignore properties file
+oracle.properties
 
 */target/**  
 
