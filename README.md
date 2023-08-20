@@ -26,8 +26,9 @@
 ### 담당 기능
 
 #### 1. 회원가입
-    <img src="https://github.com/tjwnsz/optic/assets/121169416/d4f3254e-6b4c-43ff-8dc3-1583b071c773.jpg">
-    ![m_insert2](https://github.com/tjwnsz/optic/assets/121169416/c0e30e35-49d3-4e7b-aefb-fed83be39163)
+![m_insert1](https://github.com/tjwnsz/optic/assets/121169416/3fb9b3fd-2b94-4b51-93e6-b8ce94ede5b9)
+![m_insert2](https://github.com/tjwnsz/optic/assets/121169416/ed480b40-d477-4a30-9879-4d0059adda79)
+
 <ul>
     <li>비회원 상태로 프로필 영역 클릭 시 회원가입 및 로그인으로 유도</li>
     <li>ID 중복체크, 정보 미입력 등의 유효성 체크 구현</li>
@@ -36,7 +37,8 @@
 </ul>
 
 #### 2. 로그인
-    ![m_login1](https://github.com/tjwnsz/optic/assets/121169416/6364a76e-e0a0-43cf-9825-f5e0642a8de1)
+![m_login1](https://github.com/tjwnsz/optic/assets/121169416/4db236a7-f4f5-4f29-9e76-613f38ca6518)
+
 <ul>
     <li>아이디 기억하기 체크 > 쿠키에 저장하여 다음 로그인 시 입력받은 아이디 정보를 불러옴</li>
     <li>비밀번호  찾기 > 랜덤문자열 생성하여 회원가입 시 입력한 메일로 전송</li>
@@ -44,7 +46,8 @@
 </ul>
 
 #### 3. 접근 ROLE 인증/인가 로직
-    ![role1](https://github.com/tjwnsz/optic/assets/121169416/0fb6d89f-98ab-4fde-b0f7-171b1855df7e)
+![role1](https://github.com/tjwnsz/optic/assets/121169416/cf010ccb-3462-4c74-9230-e2110dd745cf)
+
 <ul>
     <li>회원 가입 시 ROLE을 부여함 -> 일반회원 = “USER”, 관리자 = “ADMIN”</li>
     <li>로그인 없이 쿼리 스트링을 수기로 작성해서 이용할 수 없도록 설계함<br>
@@ -53,15 +56,17 @@
 </ul>
 
 #### 4. 카카오페이 결제
-    ![kakaopay1](https://github.com/tjwnsz/optic/assets/121169416/38941172-1d94-4645-b5b9-70778212337d)
+![kakaopay1](https://github.com/tjwnsz/optic/assets/121169416/af9955d4-33b3-430e-9a77-49c35c032e4a)
+
 <ul>
     <li>카카오페이 API 사용, 결제요청 > 결제승인요청 > 결제완료 구현</li>
     <li>매치 신청, 코트 예약 결제 시 활용</li>
 </ul>
 
 #### 5. 커뮤니티 게시판 CRUD
-    ![board1](https://github.com/tjwnsz/optic/assets/121169416/06b05425-1061-4850-90ca-b6de260a791a)
-    ![board2](https://github.com/tjwnsz/optic/assets/121169416/5c9bc424-1829-4f77-9905-820ad2fa5520)
+![board1](https://github.com/tjwnsz/optic/assets/121169416/2354717e-4fd3-4c43-8cd4-dcda38356feb)
+![board2](https://github.com/tjwnsz/optic/assets/121169416/c3e6f2cd-c58d-4b9b-8263-4fa9e5ff930f)
+
 <ul>
     <li>Summernote 에디터를 사용하여 게시글 등록 시 양식, 이미지, 영상 업로드 가능</li>
     <li>커뮤니티 게시글 조회, 추천, 댓글(댓글 추천) 기능 구현</li>
@@ -69,7 +74,8 @@
 </ul>
 
 #### 6. 관리자 > 회원관리
-    ![admin1](https://github.com/tjwnsz/optic/assets/121169416/7f58bf9e-9e14-4df7-b3c3-37f0cc2005cf)
+![admin1](https://github.com/tjwnsz/optic/assets/121169416/1a8fba7d-2fce-4859-bfe2-d37bc4f1a494)
+
 <ul>
     <li>관리자로 로그인 후 프로필 영역 클릭 > 관리자 항목 노출</li>
     <li>회원 관리(회원정보 수정, 예약 내역 확인 등),
