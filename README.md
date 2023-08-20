@@ -26,7 +26,7 @@
 ### 담당 기능
 
 #### 1. 회원가입
-    ![m_insert1](https://github.com/tjwnsz/optic/assets/121169416/36c496e9-a426-4f67-807f-5ec0803e01c3.jpg)
+    <img src="https://github.com/tjwnsz/optic/assets/121169416/d4f3254e-6b4c-43ff-8dc3-1583b071c773">
     ![m_insert2](https://github.com/tjwnsz/optic/assets/121169416/c0e30e35-49d3-4e7b-aefb-fed83be39163)
 <ul>
     <li>비회원 상태로 프로필 영역 클릭 시 회원가입 및 로그인으로 유도</li>
